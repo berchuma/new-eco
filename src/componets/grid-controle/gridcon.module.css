@@ -1,0 +1,9 @@
+button.badge {
+    background-color: #f04040;
+    border: none;
+    color: #ffffff;
+    width: 1.5rem;
+  }
+  .row.center {
+    align-items: center;
+  }

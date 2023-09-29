@@ -1,0 +1,86 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    margin-top: 2rem;
+    z-index: -2;
+   
+  }
+  .lala{
+    display: none;
+    cursor: pointer;
+    margin-left: 25%;
+  }
+  .ejfdkcjekdsfjka{
+    position: relative;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 10px;
+  }
+  .ejfdkcjekdsfjka:hover{
+background-color:  rgb(250, 37, 76);
+height: 70%;
+
+.lala{
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  color: white;
+}
+  } 
+  .card{
+    height: 290px;
+    max-width: 160px;
+    margin: 3px;
+    border: 2px solid #ededed;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+      box-sizing: border-box;
+      position: relative;
+     
+      
+      box-shadow:rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+    
+ 
+  
+  
+  .card-img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .card-title {
+    margin-bottom: 1rem;
+  }
+  
+  .card-reviews {
+    margin-bottom: 1rem;
+    display: flex;
+  }
+  
+  .rating-star {
+    color: #d5ab55;
+  }
+  
+  .total-reviews {
+    font-size: 0.9rem;
+    margin-left: 10px;
+  }
+  
+  .card-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bag-icon {
+    color: #535353;
+  }
+  

@@ -1,0 +1,105 @@
+.man{
+  width: 100%;
+  background-color: rgb(255, 104, 132);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+.slider {
+  position: relative;
+  width: 90%;
+  height: 350px;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: rgb(255, 104, 132);
+  border-radius: 10px;
+  
+  
+  
+  
+}
+
+.lead{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    -webkit-tap-highlight-color: transparent;
+    color: inherit;
+    font-size: 20px;
+    line-height: 1.55;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 10px;
+    margin-bottom: 20px;
+}
+.niv{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  -webkit-tap-highlight-color: transparent;
+  color: inherit;
+  font-size: inherit;
+  line-height: 1.55;
+  text-decoration: none;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.zero{
+  background-color: rgb(255, 212, 180);
+  width: max-content;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+/* image contener the */
+.slider .slider_wrapper {
+  position: relative;
+  height: 350px;
+  width: 100%;
+  
+ margin-top: 37px;
+  font-weight: 700;
+  
+
+}
+/* image*/
+.slider_wrapper .slide {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+ border-radius: 10px;
+  position: relative;
+
+}
+/*the text area */
+
+/* button*/
+
+/* buttone when hover*/
+.slide .slide_content button:hover {
+  background-color: rgb(5, 2, 2);
+}
+/* th dot conener */
+.slider .dots_wrapper {
+  z-index: 999;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  
+}
+/* the dot*/
+.dots_wrapper {
+  color: rgb(147, 134, 243);
+  font-size: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
+/* when active dot*/
+.dots_wrapper .dot.active {
+  color: rgb(45, 28, 226);
+}

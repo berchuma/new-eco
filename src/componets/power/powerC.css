@@ -1,0 +1,7 @@
+.over{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   margin-bottom: 45px;
+    margin-top: 10px;
+}

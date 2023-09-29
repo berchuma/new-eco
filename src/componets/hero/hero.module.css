@@ -1,0 +1,79 @@
+.slider {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: violet;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+/* image contener the */
+.slider .slider_wrapper {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background-color: red;
+}
+/* image*/
+.slider_wrapper .slide {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  
+  position: relative;
+
+}
+/*the text area */
+.slide .slide_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 888;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+}
+/* button*/
+.slide .slide_content button {
+  padding: 20px 40px;
+  margin-top: 30px;
+  background-color: rgb(252, 40, 40);
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease-in;
+  font-family: Poppins;
+}
+/* buttone when hover*/
+.slide .slide_content button:hover {
+  background-color: rgb(5, 2, 2);
+}
+/* th dot conener */
+.slider .dots_wrapper {
+  z-index: 999;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  
+}
+/* the dot*/
+.dots_wrapper {
+  color: rgb(147, 134, 243);
+  font-size: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
+/* when active dot*/
+.dot.active {
+  color: rgb(45, 28, 226);
+}
