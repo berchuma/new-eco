@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/new-eco/static/css/main.ef7de6ec.css",
+    "main.js": "/new-eco/static/js/main.de96aad2.js",
+    "index.html": "/new-eco/index.html",
+    "main.ef7de6ec.css.map": "/new-eco/static/css/main.ef7de6ec.css.map",
+    "main.de96aad2.js.map": "/new-eco/static/js/main.de96aad2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef7de6ec.css",
+    "static/js/main.de96aad2.js"
+  ]
+}
