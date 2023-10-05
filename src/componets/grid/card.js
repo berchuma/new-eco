@@ -25,7 +25,7 @@ const Card = ({ item,product, onAdd,onRemove } ) => {
         </div>
        
       </div>
-      <div className="lala" onClick={() => onAdd(product)} >
+      <div className="lala" onClick={() => onAdd(product,false)} >
               similar items
             </div>
     </div>

@@ -1,6 +1,7 @@
 import yes from './poster.module.css'
-const Poster = ({mast}) => {
-  console.log(mast)
+import  masta  from "./imag.js";
+const Poster = () => {
+   console.log(masta)
     return ( 
       
         <div className={yes.name}>
@@ -14,7 +15,7 @@ const Poster = ({mast}) => {
         </div>
         
             <div className={yes.contener}>
-              {mast.map((mast)=>{
+              {masta.map((mast)=>{
                 return(<div className={yes.yom} key={mast.id}>
                 <img className={yes.viwe} src={mast.img} alt='ff'></img>
                 </div>)

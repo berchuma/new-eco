@@ -1,5 +1,9 @@
 import lead from './display.module.css'
-const Disp = ({cartItems,onAdd,onRemove}) => {
+
+
+const Disp = ({cartItems,onAdd,onRemove}) => { 
+  
+console.log(cartItems.id)
     return ( 
     <section className={lead.container}>
  
@@ -7,7 +11,7 @@ const Disp = ({cartItems,onAdd,onRemove}) => {
         {cartItems.length === 0 && <div>Cart is empty</div>}
         {cartItems.length !== 0 &&  
 
-<>
+<div key={cartItems.kk}>
     <div className={lead.content}>
         <img
         src={cartItems.img}
@@ -40,7 +44,7 @@ const Disp = ({cartItems,onAdd,onRemove}) => {
 
        <div><button className={lead.sub}><div className={lead.textt}>Add to cart</div></button></div>
     </div>
-</>
+</div>
 }
     
     

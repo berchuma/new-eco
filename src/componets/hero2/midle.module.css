@@ -1,9 +1,11 @@
 .mike{
-  width: 100%;
+  width: 95%;
   background-color: white;
-  padding-left: 15px;
-  padding-right: 15px;
+  
+  padding-right: 30px;
   border-radius: 10px;
+  position: relative;
+  
 }
 .slider {
   
@@ -14,6 +16,7 @@
   background-color:transparent;
   border-radius: 10px;
   padding-left: 10px;
+
   
   
 }
@@ -63,8 +66,8 @@
 /* image*/
 .slider_wrapper .slide {
   display: inline-block;
-  height: 120%;
-  width: 110%;
+  height: 110%;
+  width: 120%;
   margin-right: 15px;
   position: relative;
 
@@ -79,9 +82,9 @@
 }
 /* th dot conener */
 .slider .dots_wrapper {
-  z-index: 999;
+  z-index: 1000;
   position: absolute;
-  bottom: -15%;
+top:88%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;

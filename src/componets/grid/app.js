@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useState } from "react";
  /* this is the same as data(no problem swiching name)*/
 import products from "../db/db.js";
@@ -9,6 +9,7 @@ import Tran from "../nav-bar/trnasition.js";
 
 
 function Mpp({product,onAdd,onRemove}) {
+
  //vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 
 

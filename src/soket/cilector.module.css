@@ -1,0 +1,76 @@
+.ssleid {
+  height: 400px;
+  width: 180px;
+  background-color: #fff;
+  transition: 0.5s ease;
+ padding-right: 7%;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  z-index: 1000000;
+}
+.menu{
+  color: black;
+  font-weight: 700;
+  padding: 10px 0;
+  text-align: right;
+  padding-right: 30px;
+  pointer-events: none;
+}
+.lists {
+  list-style: none;
+
+}
+.word{
+  font-weight: 500;
+  padding: 5px 0;
+  display: block;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: 0.2 ease-out;
+  
+}
+.berger {
+  display: none;
+  visibility: hidden;
+  -webkit-appearance: none;
+}
+.toggle {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  z-index: 1;
+  cursor: pointer;
+  top: 20px;
+  left: 15px;
+  border-radius: 2px;
+  background-color: #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.tom,
+.mid,
+
+.bot {
+  position: absolute;
+  height: 3px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 50px;
+  transition: 0, 3 ease;
+}
+ .tom {
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mid{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bot{
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

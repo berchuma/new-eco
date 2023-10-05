@@ -10,8 +10,8 @@
 .slider {
   position: relative;
   width: 90%;
-  height: 350px;
-  overflow: hidden;
+  height: 370px;
+overflow: hidden;
   white-space: nowrap;
   background-color: rgb(255, 104, 132);
   border-radius: 10px;
@@ -20,6 +20,7 @@
   
   
 }
+
 
 .lead{
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
@@ -54,9 +55,9 @@
 /* image contener the */
 .slider .slider_wrapper {
   position: relative;
-  height: 350px;
-  width: 100%;
-  
+ width: 110%;
+ height: 75%;
+
  margin-top: 37px;
   font-weight: 700;
   
@@ -69,6 +70,7 @@
   width: 100%;
  border-radius: 10px;
   position: relative;
+ 
 
 }
 /*the text area */
@@ -102,4 +104,14 @@
 /* when active dot*/
 .dots_wrapper .dot.active {
   color: rgb(45, 28, 226);
+}
+@media screen and (max-width: 660px) {
+  .man{
+    width: 94%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .man{
+    width: 60%;
+  }
 }

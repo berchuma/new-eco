@@ -3,7 +3,7 @@
     top: 0px;
     left: 0px;
     right: 0px;
-    z-index: 100;
+    z-index: 1000;
     height: 56px;
     max-height: 56px;
     position: static;
@@ -13,6 +13,7 @@
     padding-left: 16px;
     padding-right: 16px;
     margin-bottom: 30px;
+    box-shadow: 0,0,20px rgba(0, 0, 0, 0.5);
 
 }
 .divition{
@@ -35,4 +36,23 @@ button.badge {
   .row.center {
     align-items: center;
   }
-  
+  .nav-left-side{
+    padding-bottom: 15px;
+  }
+  .nav-home{
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+  }
+  .nav-cart{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-left: 10px;
+    
+  }
+  .nav-cart:hover,.nav-home:hover{
+    color: rgb(49, 2, 219);
+    cursor: pointer;
+  }

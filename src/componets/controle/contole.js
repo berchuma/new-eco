@@ -1,10 +1,10 @@
 import Slider from "../right-side-2/side.js";
-import { slidesData } from "../db/slidData.js";
+import { kedamisData } from "../db/rightA.js";
 
 function ContA() {
   return (
     <div>
-      <Slider slides={slidesData} />
+      <Slider slides={kedamisData} />
       
     </div>
   );

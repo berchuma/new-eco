@@ -1,7 +1,12 @@
-.midleu{
-    display: flex;
-    flex-direction: column;
-   
-   width: 55%;
-   margin-right: 20px;
+.midleu {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0, 0, 20px rgba(0, 0, 0, 0.5);
+  width: 55%;
+  margin-right: 20px;
+}
+@media screen and (max-width: 830px) {
+  .midleu{
+    width: 80%;
+  }
 }

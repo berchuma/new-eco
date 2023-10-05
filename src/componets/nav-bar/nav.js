@@ -1,24 +1,24 @@
 import './nav.css'
+import Drop from '../../soket/colector';
+
 const Nave = (props) => {
- 
+  
     return ( 
     <header class="top">
                 <div class="divition">
                 <div>
-        <a href="#/">
-          <h1>Menu</h1>
-        </a>
+        <Drop/>
       </div>
-      <div>
-        <a href="#/cart">
-          Cart{' '}
+      <div className='nav-left-side'>
+        <span >
+          <span className='nav-home' onClick={props.Beruma}>Home</span>
           {props.cartItems ? (
-            <button className="badge">{props.cartItems}</button>
+            <button  className="badge" onClick={props.shut}>{props.cartItems}</button>
           ) : (
             ''
           )}
-        </a>{' '}
-        <a href="#/signin"> Page</a>
+        </span>{' '}
+        <span className='nav-cart' onClick={props.CartHol}> Cart</span>
       </div>
                 </div>
     </header>

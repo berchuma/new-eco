@@ -1,9 +1,9 @@
 import Nave from "./nav";
-
-const Tran = ({cartItems}) => {
-    console.log(cartItems)
-    return ( <div>
- <Nave cartItems={cartItems}/>
+import yom from "./transition.css"
+const Tran = ({cartItems,shut,CartHol,Beruma}) => {
+     
+    return ( <div className="yom">
+ <Nave cartItems={cartItems.length} shut={shut} CartHol={CartHol} Beruma={Beruma}/>
 
     </div> );
 }

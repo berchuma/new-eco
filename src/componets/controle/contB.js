@@ -1,10 +1,10 @@
 
-import { slidesData } from "../db/slidData.js";
 import Tlide from "../hero/hero.js";
+import { AskedamiData } from "../db/top.js";
 function ContB() {
   return (
     <div>
-      <Tlide slides={slidesData} />
+      <Tlide slides={AskedamiData} />
       
     </div>
   );

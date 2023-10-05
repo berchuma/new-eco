@@ -1,10 +1,11 @@
 nav{
     width: 250px;
-    position: relative;
-    top: 0;
+   position: relative;
+    margin-top: -18px;
     margin-right: 20px;
     margin-left: 15px;
-   
+    
+  
 }
 nav ul{
     position: relative;
@@ -65,7 +66,7 @@ nav ul ul{
     list-style-type: none;
     font-size: 13px;
     padding-top: 10px;
-    z-index: 10000;
+    z-index: 100;
     
     
     
@@ -106,4 +107,9 @@ position:relative;
 }
 nav ul .dropdown:hover ul{
     display: inline;
+}
+@media screen and (max-width: 830px) {
+    nav{
+        display: none;
+    }
 }

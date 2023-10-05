@@ -6,20 +6,22 @@ import { useState } from "react";
 const Slide = ({ item}) => {
    /* the value of the item is the same as  dicribed in (other ) with no id in front*/
    /*css propery */
-   
-  const styles = {
-    
+   const styles = {
     backgroundImage: `url(${item.img})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
   };
+ 
 
-  return (
+  return (<>
+  
     <div className={styl.slide} style={styles}>
+
       <div className={styl.slide_content}>
         
       </div>
     </div>
+    </>
   );
 };
 
@@ -51,7 +53,7 @@ const Slider = ({ slides}) => {
   useEffect(() => {
     let slider = setInterval(() => {
         console.log()
-      if (one < 2) {/*how much content it contens and it conens 3 value*/
+      if (one < 3) {/*how much content it contens and it conens 3 value*/
         two(one + 1);/* the increment*/
         hulet(-(one + 1) * 100);/* the value of transletion*/
       }
@@ -92,19 +94,40 @@ const Slider = ({ slides}) => {
       </div>
       {/* the dot compont*/}
       <div className={styl.dots_wrapper}>
-        {slides.map((item, index) => {
-          return (
-            <span
-              key={item.id}
-              className={`dot ${one === index ? "active" : ""}`}
-              onClick={() => {
-                handlseDotClick(index);
-              }}
-            >
-              &#8226;
-            </span>
-          );
-        })}
+         <span
+          className="active"
+          onClick={() => {
+            handlseDotClick(0);
+          }}
+        >
+          &#8226;
+        </span>
+
+        <span
+          className="active"
+          onClick={() => {
+            handlseDotClick(1);
+          }}
+        >
+          &#8226;
+        </span>
+
+        <span
+          className="active"
+          onClick={() => {
+            handlseDotClick(2);
+          }}
+        >
+          &#8226;
+        </span>
+        <span
+          className="active"
+          onClick={() => {
+            handlseDotClick(3);
+          }}
+        >
+          &#8226;
+        </span>
       </div>
     </div>
     </div>
