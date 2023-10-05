@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/new-eco/static/css/main.ef7de6ec.css",
-    "main.js": "/new-eco/static/js/main.de96aad2.js",
+    "main.css": "/new-eco/static/css/main.4045116b.css",
+    "main.js": "/new-eco/static/js/main.f0e3dd9d.js",
     "index.html": "/new-eco/index.html",
-    "main.ef7de6ec.css.map": "/new-eco/static/css/main.ef7de6ec.css.map",
-    "main.de96aad2.js.map": "/new-eco/static/js/main.de96aad2.js.map"
+    "main.4045116b.css.map": "/new-eco/static/css/main.4045116b.css.map",
+    "main.f0e3dd9d.js.map": "/new-eco/static/js/main.f0e3dd9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef7de6ec.css",
-    "static/js/main.de96aad2.js"
+    "static/css/main.4045116b.css",
+    "static/js/main.f0e3dd9d.js"
   ]
 }
